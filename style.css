@@ -1,0 +1,134 @@
+html,
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#title {
+    font-size: 3em;
+} 
+
+#add-item {
+    display: flex;
+    max-width: 400px;
+    margin-bottom: 0;
+    gap: 10px;
+    padding: 1em;
+    border-bottom: 1px solid #D1E2FF;
+}
+
+.button {
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    height: 3em;
+    width: 25%;
+}
+
+.button:hover {
+    border: 1px solid #000;
+}
+
+#text-input {
+    border: 2px solid #000;
+    border-radius: 50px;
+    height: 2em;
+    padding: 5px;
+    width: 75%;
+}
+
+.list {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    border-top: 1px solid #D1E2FF;
+    border-left: 1px solid #D1E2FF;
+    border-right: 1px solid #D1E2FF;
+    /* box-shadow: 10px 10px 0 rgba(0,0,0,0.1); */
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+#placeholder {
+    display: none;
+    color: lightgray;
+    pointer-events: none;
+}
+
+input:checked + p {
+    background: #F9F9F9;
+    text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+    margin: 20px;
+    border-left: 1px solid #F1F1F1;
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+    transition: background 0.2s;
+    flex: 1;
+    font-family:'helvetica neue';
+    font-size: 20px;
+    font-weight: 200;
+    border-left: 1px solid #D1E2FF;
+    pointer-events: none;
+}
+
+#tools {
+    display: flex;
+    max-width: 400px;
+    justify-content: center;
+    gap: 10px;
+    border-top: 1px solid #D1E2FF;
+    border-bottom: 1px solid #D1E2FF;
+    padding: 1em;
+}
+
+footer {
+    display: flex;
+    height: 4em;
+    background-color: lightslategray;
+}
+
+.left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+}
+
+#github {
+    color: #000;
+    margin-left: 2em;
+}
+
+#copyright {
+    margin-right: 2em;
+}

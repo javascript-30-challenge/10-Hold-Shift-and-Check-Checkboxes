@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/x-icon" href="./notepad.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" defer src="./script.js"></script>
+  <title>List Me</title>
+</head>
+<body>
+  <header>
+    <img src="./notepad.png" alt="Notepad">
+    <h1 id="title" >List Me</h1>
+  </header>
+
+  <main>
+    <div class="list">
+        <div id="add-item">
+          <input type="text" id="text-input">
+          <button type="submit" id="add" class="button">Add Item</button>
+        </div>
+        <div class="item" id="placeholder">
+          <input type="checkbox" disabled>
+          <p>Let's get listing!!!</p>
+        </div>
+        <div class="list-items">
+          <div class="item">
+            <input type="checkbox">
+            <p>Learn JavaScript</p>
+          </div>
+          <div class="item">
+            <input type="checkbox">
+            <p>Learn HTML</p>
+          </div>
+          <div class="item">
+            <input type="checkbox">
+            <p>Learn CSS</p>
+          </div>
+          <div class="item">
+            <input type="checkbox">
+            <p>Practice</p>
+          </div>
+          <div class="item">
+            <input type="checkbox">
+            <p>Practice</p>
+          </div>
+          <div class="item">
+            <input type="checkbox">
+            <p>Practice</p>
+          </div>
+        </div>
+        <div id="tools">
+          <button type="submit" id="clearList" class="button">Clear List</button>
+          <button type="submit" id="clearFinished" class="button">Clear Finished</button>
+        </div>
+    </div>
+  </main>
+  <footer>
+    <div class="left">
+      <a id="github" href="https://github.com/javascript-30-challenge/10-Hold-Shift-and-Check-Checkboxes"><i class='fa fa-github icon-style' style="font-size:40px"></i></a>
+    </div>
+    <div class="right">
+      <span id="copyright">&copy copyright 2023</span>
+    </div>
+  </footer>
+</body>
+</html>
