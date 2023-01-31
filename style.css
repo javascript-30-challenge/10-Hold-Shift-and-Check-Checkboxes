@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: rgb(65, 65, 65);
 }
 
 header {
@@ -11,11 +12,18 @@ header {
     display: flex;
     justify-content: center;
     gap: 30px;
+    height: 8em;
+    color: whitesmoke;
 }
 
 #title {
     font-size: 3em;
 } 
+
+main {
+    min-height: 600px;
+}
+
 
 #add-item {
     display: flex;
@@ -33,7 +41,7 @@ header {
     color: #000;
     cursor: pointer;
     height: 3em;
-    width: 25%;
+    width: fit-content;
 }
 
 .button:hover {
@@ -46,6 +54,20 @@ header {
     height: 2em;
     padding: 5px;
     width: 75%;
+}
+
+.change {
+    display: none;
+    border: 2px solid #000;
+    border-radius: 50px;
+    height: 2em;
+    padding: 5px;
+    width: 75%;
+}
+
+.modify {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .list {
@@ -106,7 +128,7 @@ p {
 
 footer {
     display: flex;
-    height: 4em;
+    height: 6em;
     background-color: lightslategray;
 }
 
